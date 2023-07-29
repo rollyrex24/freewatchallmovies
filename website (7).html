@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PISO WIFI/LOAD 2.4G</title>
+  <style>
+    body {
+      text-align: center; /* Center all text */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: black; /* Set the background color back to black */
+      background-image: url('wp11089675.jpg'); /* Add your background image URL here */
+      background-repeat: no-repeat; /* Set the background image to not repeat */
+      background-size: cover; /* Adjust the background image size to cover the entire container */
+    }
+
+    h1 {
+      color: blue;
+      font-weight: bold;
+      font-size: 96px; /* Increased font size for the "You are now Connected!!" heading */
+    }
+
+    .multi-color-text {
+      background: linear-gradient(45deg, #ff0000, #ff6600, #ffcc00, #00cc00, #0066cc, #cc00cc);
+      background-size: 1000%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: gradient 15s ease infinite;
+      font-weight: bold;
+      font-size: 36px; /* Increased font size for the "Free Watch Latest Movies, Anime, NBA live and many more!" heading */
+    }
+
+    .multi-color-button {
+      background: linear-gradient(45deg, #ff0000, #ff6600, #ffcc00, #00cc00, #0066cc, #cc00cc);
+      color: #fff;
+      padding: 20px 40px; /* Adjust the padding to make the button larger */
+      border: none;
+      border-radius: 5px;
+      font-size: 36px; /* Increased font size for the download button */
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .multi-color-button:hover {
+      background: #ff0000; /* Change to a specific color on hover if desired */
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 1000%;
+      }
+    }
+
+    /* Media Query for Larger Viewports on Desktop */
+    @media (min-width: 1025px) {
+      h1 {
+        font-size: 120px; /* Increased font size for larger viewports */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="multi-color-text">You are now Connected!!</h1>
+  <h2 class="multi-color-text">Free Watch Latest Movies, Anime, NBA live and many more!</h2>
+  <button class="multi-color-button" onclick="window.location.href='https://www.mediafire.com/file/6u6yxh6v8k9upxq/OLiNWaN+1.3_1.3.apk/file'">
+    Download App
+  </button>
+</body>
+</html>
